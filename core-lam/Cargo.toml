@@ -4,3 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+figlet-rs = "0.1.5"  # ASCII text generation
+
+[[bin]]  # This tells Cargo it's a binary project
+name = "core-lam"
+path = "main.rs"
+
